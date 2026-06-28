@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/tasks";
+const API_URL = "https://task-tracker-backend-wu27.onrender.com/api/tasks";
 
 export const getTasks = () => {
   return axios.get(API_URL);
